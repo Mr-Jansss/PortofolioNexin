@@ -237,4 +237,40 @@ footer,
         width: 28px;
         height: 28px;
     }
+
+    /* Hide images on mobile */
+    .animate-float {
+        display: none !important;
+    }
+
+    /* Make all text justify on mobile */
+    p, li span, .text-left {
+        text-align: justify !important;
+    }
+
+    /* Center align for specific elements that shouldn't be justified */
+    h1, h2, h3, h4, h5, h6,
+    .text-center,
+    button,
+    a.block {
+        text-align: center !important;
+    }
+
+    /* Hero section adjustments for mobile */
+    #beranda .md\:flex-row {
+        justify-content: center;
+    }
+
+    #beranda .md\:w-1\/2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #beranda .md\:text-left {
+        text-align: center !important;
+    }
+
+    #beranda p {
+        text-align: justify !important;
+    }
 }
